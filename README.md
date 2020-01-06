@@ -22,7 +22,7 @@ Here's to explain what each file does in the order it should be run.
 1. ./make_test_data(HOG+SVM_data).py # make all TEST data(/pos & /neg) in a folder(./data) for test use
 2. ./get_ground_truth(annotation2Ground_Truth.npy).py # using regular expressions to get the Ground_Truth from the annotation
 3. ./predict_bounding_boxes(predict).py # using HOG_SVM_detector predict Human's bounding_boxes in ./data/Test/ which is got by 1.
-4. evaluate_the_detector.py # using (predict bounding_boxes and Ground_Truth)'s IOU > 0.5 is good to  evaluate the detector
+4. ./evaluate_the_detector.py # using (predict bounding_boxes and Ground_Truth)'s IOU > 0.5 is good to  evaluate the detector
 
 
 **PS:** detect_bounding_boxes.py provides the detector method(don't need to run)
