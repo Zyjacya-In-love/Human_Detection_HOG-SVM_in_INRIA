@@ -47,7 +47,7 @@ For training model, in order to find best parameter C, I use k-fold cross-valida
 
 Using (predict bounding_boxes and Ground_Truth)'s IOU > 0.5 is good to evaluate the detector. There are 589 Ground Truth and predictions bounding_boxes number is 1110 and the number of correct prediction is 117. Finally, precision and recall and so on as shown in the following table.
 
-|                               | Precision | Recall | false positive rate | Miss Rate |
+|                               | Precision | Recall | False Positive Rate | Miss Rate |
 |-------------------------------|-----------|--------|---------------------|-----------|
 | lin_svm_clf.pkl               | 10.54%    | 19.86% | 89.46%              | 80.14%    |
 | lin_svm_clf_hard_examples.pkl | 14.72%    | 10.70% | 85.28%              | 89.30%    |
