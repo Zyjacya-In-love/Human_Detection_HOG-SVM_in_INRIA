@@ -17,8 +17,8 @@ Here's to explain what each file does in the order it should be run.
 #### Training Classifier
 
 1. ./extract_HOG(HOG+SVM_feature).py # extract all data's(TRAIN & TEST) HOG features to a .npy file(./feature/train.npy & test.npy).
-2. ./find_best_LinearSVM(model).py # training Linear SVM model based on the extracted features(TRAIN) using k-fold cross-validation.(get lin_svm_clf.pkl)
-3. ./hard_examples.py # Apply hard-negative mining.(get lin_svm_clf_hard_examples.pkl)
+2. ./find_best_LinearSVM(model).py # training Linear SVM model based on the extracted features(TRAIN) using k-fold cross-validation.(get ./model/lin_svm_clf.pkl)
+3. ./hard_examples.py # Apply hard-negative mining.(get ./model/lin_svm_clf_hard_examples.pkl)
 
 
 #### Evaluate Detector
