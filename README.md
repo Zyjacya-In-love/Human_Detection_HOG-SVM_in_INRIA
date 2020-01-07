@@ -45,7 +45,7 @@ For training model, in order to find best parameter C, I use k-fold cross-valida
 
 ![](README/README1.png)
 
-Using (predict bounding_boxes and Ground_Truth)'s IOU > 0.5 is good to evaluate the detector, there are 589 Ground Truth and predictions bounding_boxes number is 1110 and the number of correct prediction is 117. Finally, precision and recall and so on as shown in the following table.
+Using (predict bounding_boxes and Ground_Truth)'s IOU > 0.5 is good to evaluate the detector. There are 589 Ground Truth and predictions bounding_boxes number is 1110 and the number of correct prediction is 117. Finally, precision and recall and so on as shown in the following table.
 
 |                               | Precision | Recall | false positive rate | Miss Rate |
 |-------------------------------|-----------|--------|---------------------|-----------|
