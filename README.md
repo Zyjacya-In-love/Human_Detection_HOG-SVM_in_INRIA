@@ -8,6 +8,10 @@ Human Detection using HOG as descriptor and Linear SVM as classifier, detector u
 
 INRIA Person Dataset link: [http://pascal.inrialpes.fr/data/human/](http://pascal.inrialpes.fr/data/human/)
 
+## Detector Workflow
+
+![](README/README2.png)
+
 ## CODE
 
 **NOTE:** All python files need to be run **separately**.
