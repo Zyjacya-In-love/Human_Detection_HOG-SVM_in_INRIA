@@ -10,7 +10,7 @@ INRIA Person Dataset link: [http://pascal.inrialpes.fr/data/human/](http://pasca
 
 ## Detector Workflow
 
-<img src="./README/README0.png" width="259" height="567">
+<img src="./README/README2.png" width="337" height="737">
 
 ## CODE
 
@@ -47,7 +47,8 @@ For the model I trained(./model/lin_svm_clf.pkl & lin_svm_clf_hard_examples.pkl)
 
 For training model, in order to find best parameter C, I use k-fold cross-validation and find that when C=0.014 the cross-validation accuracy reached the highest(98.48%).
 
-![](README/README1.png)
+<img src="./README/README1.png" width="400" height="334">
+
 
 Using (predict bounding_boxes and Ground_Truth)'s IOU > 0.5 is good to evaluate the detector. There are 589 Ground Truth and predictions bounding_boxes number is 1110 and the number of correct prediction is 117. Finally, precision and recall and so on as shown in the following table.
 
