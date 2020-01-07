@@ -10,7 +10,7 @@ INRIA Person Dataset link: [http://pascal.inrialpes.fr/data/human/](http://pasca
 
 ## Detector Workflow
 
-![](README/README3.png)
+<img src="./README/README0.png" width="259" height="567">
 
 ## CODE
 
