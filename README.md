@@ -6,7 +6,13 @@ Human Detection using HOG as descriptor and Linear SVM as classifier, detector u
 
 ## Dataset
 
-INRIA Person Dataset link: [http://pascal.inrialpes.fr/data/human/](http://pascal.inrialpes.fr/data/human/)
+INRIA Person Dataset link:
+
+1. ~~official link : [http://pascal.inrialpes.fr/data/human/](http://pascal.inrialpes.fr/data/human/)~~ down
+
+2. Baidu Cloud Disk(中文) : [https://pan.baidu.com/s/12TYw-8U9sxz9cUu2vxzvGQ](https://pan.baidu.com/s/12TYw-8U9sxz9cUu2vxzvGQ) password: jxqu
+
+2. Google Drive : [https://drive.google.com/file/d/1wTxod2BhY_HUkEdDYRVSuw-nDuqrgCu7/view?usp=sharing](https://drive.google.com/file/d/1wTxod2BhY_HUkEdDYRVSuw-nDuqrgCu7/view?usp=sharing)
 
 ## Detector Workflow
 
